@@ -54,7 +54,7 @@ function MakeDict2(){
             qn.push(f[0]);
             if(f[1]=='easy'){
                 no_e +=1;
-                diff.push('<img src="https://img.shields.io/badge/Easy-green.svg" alt="Easy"/>');
+                diff.push('![Easy](https://img.shields.io/badge/Easy-green.svg)');
             }
             else if(f[1]=='med'){
                 no_m +=1;
