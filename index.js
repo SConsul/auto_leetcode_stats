@@ -19,7 +19,7 @@ function TitleCase(name){
         if(word =="i" || word=="ii"|| word=="iii"|| word=="iv"|| word=="v"|| word=="vi"|| word=="vii"|| word=="vii"|| word=="ix"|| word=="x"){
             word = word.toUpperCase();
         }
-        else if(i==0 || !(word=='to' && word=='from'&& word=='of'&& word=='and'&& word=='the'&& word=='with'&& word=='in'&& word=='on')){
+        else if(i==0 || !(word=='to' || word=='from' || word=='of'|| word=='and'|| word=='the'|| word=='with'|| word=='in'|| word=='on'|| word=='is'||word=='by'|| word=='a')){
             word = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
         }
         nameCap+=word+' ';
@@ -34,6 +34,7 @@ function MakeLink(name){
         leetlink+=arr[i]+'-';
     }
     leetlink = leetlink.slice(0,leetlink.length-1)+'/'
+    console.log(TitleCase(name));
     return '['+TitleCase(name)+']('+leetlink+')';
 }
 
@@ -45,6 +46,7 @@ function MakeDict2(){
     var no_e=0;
     var no_m=0;
     var no_h=0;
+    var no_total=0;
     files = fs.readdirSync(directoryPath);
     console.log('GETTING FILE NAMES');
     files.sort(cmp);
@@ -54,14 +56,17 @@ function MakeDict2(){
             qn.push(f[0]);
             if(f[1]=='easy'){
                 no_e +=1;
+                no_total+=1;
                 diff.push('![Easy](https://img.shields.io/badge/Easy-43A047.svg)');
             }
             else if(f[1]=='med'){
                 no_m +=1;
+                no_total+=1;
                 diff.push('![Medium](https://img.shields.io/badge/Medium-FB8C00.svg)');
             }
             else {
                 no_h +=1;
+                no_total+=1;
                 diff.push('![Hard](https://img.shields.io/badge/Hard-E91E62.svg)');
             }
             var name ="";
@@ -84,7 +89,8 @@ function MakeDict2(){
             prob: prob,
             num_e: no_e,
             num_m: no_m,
-            num_h: no_h
+            num_h: no_h,
+            num_total: no_total
             };
 }
 
@@ -93,7 +99,7 @@ function generateReadMe() {
     fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
         if (err) throw err;
         let obj_v = MakeDict2()
-        console.log(obj_v)
+        // console.log(obj_v)
         // var obj_v ={
         //     prob: v,
         //     num_e: num_e,
