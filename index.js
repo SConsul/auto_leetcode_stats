@@ -32,7 +32,6 @@ function MakeLink(name){
     let nameCap='';
     for(i=0;i<arr.length;i++){
         leetlink+=arr[i]+'-';
-        // nameCap += arr[i].charAt(0).toUpperCase() + arr[i].slice(1)+' ';
     }
     leetlink = leetlink.slice(0,leetlink.length-1)+'/'
     return '['+TitleCase(name)+']('+leetlink+')';
@@ -55,15 +54,15 @@ function MakeDict2(){
             qn.push(f[0]);
             if(f[1]=='easy'){
                 no_e +=1;
-                diff.push('Easy');
+                diff.push('<img src="https://img.shields.io/badge/Easy-green.svg" alt="Easy"/>');
             }
             else if(f[1]=='med'){
                 no_m +=1;
-                diff.push('Medium');
+                diff.push('<img src="https://img.shields.io/badge/Medium-orange.svg" alt="Medium"/>');
             }
             else {
                 no_h +=1;
-                diff.push('Hard');
+                diff.push('<img src="https://img.shields.io/badge/Hard-red.svg" alt="Hard"/>');
             }
             var name ="";
             for(i=2;i<f.length;i++){
