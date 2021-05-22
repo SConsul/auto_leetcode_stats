@@ -58,11 +58,11 @@ function MakeDict2(){
             }
             else if(f[1]=='med'){
                 no_m +=1;
-                diff.push('<img src="https://img.shields.io/badge/Medium-orange.svg" alt="Medium"/>');
+                diff.push('![Medium](https://img.shields.io/badge/Medium-orange.svg)');
             }
             else {
                 no_h +=1;
-                diff.push('<img src="https://img.shields.io/badge/Hard-red.svg" alt="Hard"/>');
+                diff.push('![Hard](https://img.shields.io/badge/Hard-red.svg)');
             }
             var name ="";
             for(i=2;i<f.length;i++){
