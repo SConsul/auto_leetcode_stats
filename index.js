@@ -11,16 +11,31 @@ var qn = [];
 var diff = [];
 var q =[];
 
+function TitleCase(name){
+    let nameCap='';
+    let arr = name.split(" ");
+    for(i=0;i<arr.length;i++){
+        let word = arr[i];
+        if(word =="i" || word=="ii"|| word=="iii"|| word=="iv"|| word=="v"|| word=="vi"|| word=="vii"|| word=="vii"|| word=="ix"|| word=="x"){
+            word = word.toUpperCase();
+        }
+        else if(i==0 || !(word=='to' && word=='from'&& word=='of'&& word=='and'&& word=='the'&& word=='with'&& word=='in'&& word=='on')){
+            word = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+        }
+        nameCap+=word+' ';
+    }
+    return nameCap.slice(0,nameCap.length-1);
+}
 function MakeLink(name){
     let leetlink = 'https://leetcode.com/problems/'
     let arr = name.split(" ");
-    // let nameCap='';
+    let nameCap='';
     for(i=0;i<arr.length;i++){
         leetlink+=arr[i]+'-';
         // nameCap += arr[i].charAt(0).toUpperCase() + arr[i].slice(1)+' ';
     }
     leetlink = leetlink.slice(0,leetlink.length-1)+'/'
-    return '['+name+']('+leetlink+')';
+    return '['+TitleCase(name)+']('+leetlink+')';
 }
 
 function cmp(a,b){
