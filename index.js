@@ -54,15 +54,15 @@ function MakeDict2(){
             qn.push(f[0]);
             if(f[1]=='easy'){
                 no_e +=1;
-                diff.push('![Easy](https://img.shields.io/badge/Easy-green.svg)');
+                diff.push('![Easy](https://img.shields.io/badge/Easy-43A047.svg)');
             }
             else if(f[1]=='med'){
                 no_m +=1;
-                diff.push('![Medium](https://img.shields.io/badge/Medium-orange.svg)');
+                diff.push('![Medium](https://img.shields.io/badge/Medium-FB8C00.svg)');
             }
             else {
                 no_h +=1;
-                diff.push('![Hard](https://img.shields.io/badge/Hard-red.svg)');
+                diff.push('![Hard](https://img.shields.io/badge/Hard-E91E62.svg)');
             }
             var name ="";
             for(i=2;i<f.length;i++){
