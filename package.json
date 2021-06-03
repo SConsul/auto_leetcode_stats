@@ -1,7 +1,7 @@
 {
   "name": "auto_leetcode_stats",
   "version": "1.0.0",
-  "description": "",
+  "description": "The README.md is built using mustache, to automatically track your progress in Leetcode\r In the `leetcode` folder, save your submissions as `<SNo>_<easy/med/hard>_<problem_name>.*`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/SConsul/auto_leetcode_stats#readme",
   "dependencies": {
     "mustache": "^4.2.0"
-  }
+  },
+  "devDependencies": {}
 }
