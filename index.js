@@ -29,19 +29,18 @@ function TitleCase(name){
 function MakeLink(name){
     let leetlink = 'https://leetcode.com/problems/'
     let arr = name.split(" ");
-    let nameCap='';
     for(i=0;i<arr.length;i++){
         leetlink+=arr[i]+'-';
     }
     leetlink = leetlink.slice(0,leetlink.length-1)+'/'
-    console.log(TitleCase(name));
+    //console.log(TitleCase(name));
     return '['+TitleCase(name)+']('+leetlink+')';
 }
 
 function cmp(a,b){
     return Number(a.split('_')[0]) < Number(b.split('_')[0]) ? -1:1;
 }
-function MakeDict2(){
+function MakeDict(){
     var prob=[];
     var no_e=0;
     var no_m=0;
@@ -51,7 +50,6 @@ function MakeDict2(){
     console.log('GETTING FILE NAMES');
     files.sort(cmp);
     files.forEach(function (file) {
-        // file = file.slice(0,file.length-4);
             var f = file.split('.')[0].split('_');
             qn.push(f[0]);
             if(f[1]=='easy'){
@@ -98,14 +96,8 @@ function generateReadMe() {
     console.log('MAKING README');
     fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
         if (err) throw err;
-        let obj_v = MakeDict2()
+        let obj_v = MakeDict()
         // console.log(obj_v)
-        // var obj_v ={
-        //     prob: v,
-        //     num_e: num_e,
-        //     num_m: num_m,
-        //     num_h: num_h,
-        // }
         const output = Mustache.render(data.toString(), obj_v);
         fs.writeFileSync('README.md', output);
     });
