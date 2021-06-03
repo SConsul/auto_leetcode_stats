@@ -57,12 +57,12 @@ function MakeDict(){
                 no_total+=1;
                 diff.push('![Easy](https://img.shields.io/badge/Easy-43A047.svg)');
             }
-            else if(f[1]=='med'){
+            else if(f[1]=='med' || f[1]=='medium'){
                 no_m +=1;
                 no_total+=1;
                 diff.push('![Medium](https://img.shields.io/badge/Medium-FB8C00.svg)');
             }
-            else {
+            else if(f[1]=='hard'){
                 no_h +=1;
                 no_total+=1;
                 diff.push('![Hard](https://img.shields.io/badge/Hard-E91E62.svg)');
