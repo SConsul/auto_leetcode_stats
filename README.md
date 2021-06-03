@@ -13,7 +13,7 @@ Problems Solved: **4**
 
 
 |#| Title |Difficulty| 
-|:---:|:---:|:---:|
+|:---:|:---|:---:|
 1 |[Demo Prob](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 5 |[Demo Prob II](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-ii&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 100 |[Demo Prob III](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-iii&#x2F;) |![Hard](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Hard-E91E62.svg)|
