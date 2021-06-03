@@ -4,11 +4,13 @@ The README.md is built using mustache, to automatically track your progress in L
 
 ## Installation Instructions
 
-1. run `npm init`
-2. run `npm -i mustache`
-3. Enable workflows in your repository on GitHub (repo > Actions > Workflows)
-4. In the `leetcode` folder, save your submissions as `<SNo>_<easy/med/hard>_<problem_name>.*`
-5. Push your changes
+1. Delete the `node_modules/.bin` folder
+2. run `npm init`
+3. run `npm -i mustache`
+4. Enable workflows in your repository on GitHub (repo > Actions > Workflows)
+5. In the `leetcode` folder, save your submissions as `<SNo>_<easy/med/hard>_<problem_name>.*`
+6. Push your changes
+7. Repeat steps 5 and 6 as you solve more questions!
 
 ##Demo
 
