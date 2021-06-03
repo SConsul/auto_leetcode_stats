@@ -1,4 +1,4 @@
-# Auto Building Leetcode Progress Tracker
+# Automatic Leetcode Progress Tracker
 
 The README.md is built using mustache, to automatically track your progress in Leetcode
 
