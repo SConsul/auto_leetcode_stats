@@ -10,7 +10,7 @@ The README.md is built using mustache, to automatically track your progress in L
 5. Change the README text or format your template in the `main.mustache` file
 6. In the `leetcode` folder, save your submissions as `<SNo>_<easy/med/hard>_<hyphen-separated-problem-name>.*`
 7. Push your changes and Pull to update your local repository with the new auto-genenerated README
-8. Run steps 7 and 7 as you solve more questions!
+8. Run steps 6 and 7 as you solve more questions!
 
 ## Preview of the Leetcode Statistics Tracker
 
