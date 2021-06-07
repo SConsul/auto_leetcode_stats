@@ -2,11 +2,11 @@
 
 This is an archive of the competitive programming questions I practised on Leetcode.
 
-Problems Solved: **27**
+Problems Solved: **28**
 
 |Easy| Medium |Hard| 
 |:---:|:---:|:---:|
-| 20/490 | 6/984 | 1/394 |
+| 21/490 | 6/984 | 1/394 |
 
 </br>
 
@@ -23,6 +23,7 @@ Problems Solved: **27**
 83 |[Remove Duplicates from Sorted List](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;remove-duplicates-from-sorted-list&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 100 |[Same Tree](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;same-tree&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 121 |[Best Time to Buy and Sell Stock](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;best-time-to-buy-and-sell-stock&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
+122 |[Best Time to Buy and Sell Stock II](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;best-time-to-buy-and-sell-stock-ii&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 138 |[Copy List with Random Pointer](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;copy-list-with-random-pointer&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 303 |[Range Sum Query Immutable](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;range-sum-query-immutable&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 392 |[Is Subsequence](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;is-subsequence&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
