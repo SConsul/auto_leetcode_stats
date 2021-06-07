@@ -7,17 +7,18 @@ The README.md is built using mustache, to automatically track your progress in L
 2. run `npm init`
 3. run `npm -i mustache`
 4. Enable workflows in your repository on GitHub (repo > Actions > Workflows)
-5. In the `leetcode` folder, save your submissions as `<SNo>_<easy/med/hard>_<problem_name>.*`
-6. Push your changes
-7. Run steps 5 and 6 as you sove more questions!
+5. Change the README text or format your template in the `main.mustache` file
+6. In the `leetcode` folder, save your submissions as `<SNo>_<easy/med/hard>_<hyphen-separated-problem-name>.*`
+7. Push your changes and Pull to update your local repository with the new auto-genenerated README
+8. Run steps 7 and 7 as you solve more questions!
 
 ## Preview of the Leetcode Statistics Tracker
 
-Problems Solved: **4**
+Problems Solved: **5**
 
 |Easy| Medium |Hard| 
 |:---:|:---:|:---:|
-| 1/490 | 2/984 | 1/394 |
+| 1/490 | 3/984 | 1/394 |
 
 </br>
 
@@ -26,6 +27,7 @@ Problems Solved: **4**
 |:---:|:---|:---:|
 1 |[Demo Prob](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 5 |[Demo Prob II](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-ii&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
+42 |[Demo Prob V](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-v&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 100 |[Demo Prob III](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-iii&#x2F;) |![Hard](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Hard-E91E62.svg)|
 123 |[Demo Prob IV](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-iv&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 
