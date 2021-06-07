@@ -13,7 +13,7 @@ var q =[];
 
 function TitleCase(name){
     let nameCap='';
-    let arr = name.split(" ");
+    let arr = name.split("-");
     for(i=0;i<arr.length;i++){
         let word = arr[i];
         if(word =="i" || word=="ii"|| word=="iii"|| word=="iv"|| word=="v"|| word=="vi"|| word=="vii"|| word=="vii"|| word=="ix"|| word=="x"){
@@ -28,12 +28,8 @@ function TitleCase(name){
 }
 function MakeLink(name){
     let leetlink = 'https://leetcode.com/problems/'
-    let arr = name.split(" ");
-    for(i=0;i<arr.length;i++){
-        leetlink+=arr[i]+'-';
-    }
-    leetlink = leetlink.slice(0,leetlink.length-1)+'/'
-    //console.log(TitleCase(name));
+    leetlink += name+'/'
+    console.log(TitleCase(name));
     return '['+TitleCase(name)+']('+leetlink+')';
 }
 
@@ -52,27 +48,22 @@ function MakeDict(){
     files.forEach(function (file) {
             var f = file.split('.')[0].split('_');
             qn.push(f[0]);
-            if(f[1]=='easy'){
+            if(f[1].charAt(0)=='e'||f[1].charAt(0)=='E'){
                 no_e +=1;
                 no_total+=1;
                 diff.push('![Easy](https://img.shields.io/badge/Easy-43A047.svg)');
             }
-            else if(f[1]=='med' || f[1]=='medium'){
+            else if(f[1].charAt(0)=='m'||f[1].charAt(0)=='M'){
                 no_m +=1;
                 no_total+=1;
                 diff.push('![Medium](https://img.shields.io/badge/Medium-FB8C00.svg)');
             }
-            else if(f[1]=='hard'){
+            else if(f[1].charAt(0)=='h'||f[1].charAt(0)=='H'){
                 no_h +=1;
                 no_total+=1;
                 diff.push('![Hard](https://img.shields.io/badge/Hard-E91E62.svg)');
             }
-            var name ="";
-            for(i=2;i<f.length;i++){
-                name+=f[i]+" ";
-            }
-            q.push(MakeLink(name.slice(0,name.length-1)));
-            // console.log(f[0],f[1],name);
+            q.push(MakeLink(f[2]));
     });
     for(i=0;i<qn.length;i++){
         prob.push(
