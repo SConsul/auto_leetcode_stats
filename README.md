@@ -2,11 +2,11 @@
 
 This is an archive of the competitive programming questions I practised on Leetcode.
 
-Problems Solved: **28**
+Problems Solved: **29**
 
 |Easy| Medium |Hard| 
 |:---:|:---:|:---:|
-| 21/490 | 6/984 | 1/394 |
+| 21/490 | 7/984 | 1/394 |
 
 </br>
 
@@ -30,6 +30,7 @@ Problems Solved: **28**
 509 |[Fibonacci Number](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;fibonacci-number&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 669 |[Trim a Binary Search Tree](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;trim-a-binary-search-tree&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 746 |[Min Cost Climbing Stairs](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;min-cost-climbing-stairs&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
+918 |[Maximum Sum Circular Subarray](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;maximum-sum-circular-subarray&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 938 |[Range Sum of Bst](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;range-sum-of-bst&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 1010 |[Pairs of Songs with Total Durations Divisible by 60](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;pairs-of-songs-with-total-durations-divisible-by-60&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 1025 |[Divisor Game](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;divisor-game&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
