@@ -36,7 +36,7 @@ function MakeLink(name){
 function cmp(a,b){
     return Number(a.split('_')[0]) < Number(b.split('_')[0]) ? -1:1;
 }
-function MakeDict2(){
+function MakeDict(){
     var prob=[];
     var no_e=0;
     var no_m=0;
@@ -46,27 +46,25 @@ function MakeDict2(){
     console.log('GETTING FILE NAMES');
     files.sort(cmp);
     files.forEach(function (file) {
-        // file = file.slice(0,file.length-4);
             var f = file.split('.')[0].split('_');
             qn.push(f[0]);
-            if(f[1]=='easy'){
+            if(f[1].charAt(0)=='e'||f[1].charAt(0)=='E'){
                 no_e +=1;
                 no_total+=1;
                 diff.push('![Easy](https://img.shields.io/badge/Easy-43A047.svg)');
             }
-            else if(f[1]=='med'){
+            else if(f[1].charAt(0)=='m'||f[1].charAt(0)=='M'){
                 no_m +=1;
                 no_total+=1;
                 diff.push('![Medium](https://img.shields.io/badge/Medium-FB8C00.svg)');
             }
-            else {
+            else if(f[1].charAt(0)=='h'||f[1].charAt(0)=='H'){
                 no_h +=1;
                 no_total+=1;
                 diff.push('![Hard](https://img.shields.io/badge/Hard-E91E62.svg)');
             }
 
             q.push(MakeLink(f[2]));
-            // console.log(f[0],f[1],name);
     });
     for(i=0;i<qn.length;i++){
         prob.push(
@@ -90,14 +88,8 @@ function generateReadMe() {
     console.log('MAKING README');
     fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
         if (err) throw err;
-        let obj_v = MakeDict2()
+        let obj_v = MakeDict()
         // console.log(obj_v)
-        // var obj_v ={
-        //     prob: v,
-        //     num_e: num_e,
-        //     num_m: num_m,
-        //     num_h: num_h,
-        // }
         const output = Mustache.render(data.toString(), obj_v);
         fs.writeFileSync('README.md', output);
     });

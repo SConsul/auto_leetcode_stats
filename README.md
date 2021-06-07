@@ -41,7 +41,6 @@ Problems Solved: **28**
 1641 |[Count Sorted Vowel Strings](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;count-sorted-vowel-strings&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 1672 |[Richest Customer Wealth](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;richest-customer-wealth&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
 1710 |[Maximum Units on a Truck](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;maximum-units-on-a-truck&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
-
 </br></br>
 
 Check out [this repository](https://github.com/auto_leetcode_stats) on creating your own tracker.
