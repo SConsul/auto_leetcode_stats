@@ -4,8 +4,8 @@ The README.md is built using mustache, to automatically track your progress in L
 
 ## Installation Instructions
 1. run `$ npm init`
-2. run `$ npm -i mustache`
-3. run `$ npm -i puppeteer`
+2. run `$ npm i mustache`
+3. run `$ npm i puppeteer`
 4. Enable workflows in your repository on GitHub (repo > Actions > Workflows)
 5. Format your README template by editting `main.mustache`
 6. In the `leetcode` folder, save your submissions as `<SNo>_<easy/med/hard>_<hyphen-separated-problem-name>.*`
