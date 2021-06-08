@@ -25,11 +25,11 @@ Problems Solved: **5**
 
 |#| Title |Difficulty| 
 |:---:|:---|:---:|
-1 |[Demo Prob](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg &quot;Easy&quot;)|
-5 |[Demo Prob II](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-ii&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg &quot;Medium&quot;)|
-42 |[Demo Prob V](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-v&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg &quot;Medium&quot;)|
-100 |[Demo Prob III](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-iii&#x2F;) |![Hard](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Hard-E91E62.svg &quot;Hard&quot;)|
-123 |[Demo Prob IV](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-iv&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg &quot;Medium&quot;)|
+1 |[Demo Prob](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob&#x2F;) |![Easy](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Easy-43A047.svg)|
+5 |[Demo Prob II](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-ii&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
+42 |[Demo Prob V](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-v&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
+100 |[Demo Prob III](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-iii&#x2F;) |![Hard](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Hard-E91E62.svg)|
+123 |[Demo Prob IV](https:&#x2F;&#x2F;leetcode.com&#x2F;problems&#x2F;demo-prob-iv&#x2F;) |![Medium](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;Medium-FB8C00.svg)|
 
 </br></br>
 
