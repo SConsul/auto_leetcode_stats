@@ -83,17 +83,17 @@ function generateReadMe(){
                 if(f[1].charAt(0)=='e'||f[1].charAt(0)=='E'){
                     no_e +=1;
                     no_total+=1;
-                    diff.push('![Easy](https://img.shields.io/badge/Easy-43A047.svg "Easy")');
+                    diff.push('![Easy](https://img.shields.io/badge/Easy-43A047.svg)');
                 }
                 else if(f[1].charAt(0)=='m'||f[1].charAt(0)=='M'){
                     no_m +=1;
                     no_total+=1;
-                    diff.push('![Medium](https://img.shields.io/badge/Medium-FB8C00.svg "Medium")');
+                    diff.push('![Medium](https://img.shields.io/badge/Medium-FB8C00.svg)');
                 }
                 else if(f[1].charAt(0)=='h'||f[1].charAt(0)=='H'){
                     no_h +=1;
                     no_total+=1;
-                    diff.push('![Hard](https://img.shields.io/badge/Hard-E91E62.svg "Hard")');
+                    diff.push('![Hard](https://img.shields.io/badge/Hard-E91E62.svg)');
                 }
                 q.push(MakeLink(f[2]));
             });
